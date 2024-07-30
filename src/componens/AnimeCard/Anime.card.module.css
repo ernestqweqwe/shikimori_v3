@@ -1,0 +1,24 @@
+.card{
+    width: 162px;
+    height: 275px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+    width: 162px;
+    height: 223px;
+}
+
+.card__title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.card__subtitle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
